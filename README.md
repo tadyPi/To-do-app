@@ -1,3 +1,3 @@
-# To-do-app
-Basic to-do app 
-to-do-app using HTML CSS JavaScript in VS code
+# Todo-app
+Basic todo app.
+A todo-app using HTML CSS JavaScript in VS code.
