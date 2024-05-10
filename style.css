@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -175,7 +174,7 @@ h3 {
     margin-left: 10px;
     color: #0c6c72;
     -webkit-text-stroke: .5px #898989;
-    font-family: sans-serif;
+    font-family: sans-serifgit checkout maingit checkout main;
 }
 
 @media only screen and (max-width: 800px) {
@@ -202,114 +201,4 @@ h3 {
         top: 0;
         left: 0;
     }
-=======
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 14px;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-}
-
-main {
-    padding: 20px;
-}
-
-form {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px 0 0 5px;
-}
-
-button[type="submit"] {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-}
-
-ul {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-li {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 10px;
-}
-
-li.completed {
-    background-color: #f2f2f2;
-}
-
-li .task {
-    flex: 1;
-    margin-right: 10px;
-}
-
-li .actions {
-    display: flex;
-    align-items: center;
-}
-
-li .actions button {
-    padding: 5px 10px;
-    font-size: 14px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 5px;
-}
-
-li .actions button.edit {
-    background-color: #f2f2f2;
-    color: #333;
-}
-
-li .actions button.delete {
-    background-color: #ff0000;
->>>>>>> origin/main
 }
