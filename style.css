@@ -5,8 +5,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #c3ca81;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, rgb(241, 239, 239), rgb(253, 253, 248), rgb(239, 238, 237), rgb(254, 252, 250), rgb(249, 249, 247));
+    backdrop-filter: blur(100px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,22 +15,26 @@ body {
 }
 
 .LOP {
-    font-family: fantasy;
     font-size: 96px;
-    color: #c9df6f;
-    text-shadow: 0 5px 10px #5c603c;
+    color: #c5c8c5;
+    text-shadow: 3px 3px 2px #c2efee;
+    -webkit-text-stroke: 1px #505150;
     position: absolute;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
+    font-family: "Poppins", sans-serif;
+
 }
 
 .design-dev {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     color: #1a1a1a;
+    -webkit-text-stroke: 1px #3b3b3b;
     position: absolute;
     top: 150px;
+    top: 8rem;
 
 }
 
@@ -51,7 +56,7 @@ header {
     background-color: #333;
     padding: 20px;
     border: 1px solid #fcfdfd;
-    color: #c3ca81;
+    color: #d1e3d3;
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.9);
 
 }
@@ -63,7 +68,7 @@ h1 {
 
 p {
     font-size: 14px;
-    color: #c3ca81;
+    color: #edf7d0;
     position: relative;
     bottom: 0;
     margin-top: 10px;
@@ -85,23 +90,28 @@ input[type="text"] {
     border: none;
     border-radius: 5px 0 0 5px;
     margin-left: 40px;
+    background-color: black;
+    border: 1px solid #babbb7;
+    color: #babbb7;
+
 }
 
 input[type="date"] {
     padding: 10px;
     font-size: 16px;
     border-radius: 0 5px 5px 0;
-    border: 1px solid #ccc;
+    border: 1px solid #babbb7;
     margin-left: 2px;
     margin-right: 10px;
+    background-color: black;
+    color: #babbb7;
 }
 
 button[type="submit"] {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #333;
-    color: #fff;
-
+    color: #cff5a3;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
 }
@@ -162,16 +172,19 @@ h3 {
     left: 0;
     margin-bottom: 10px;
     margin-left: 10px;
+    color: #0c6c72;
+    -webkit-text-stroke: .5px #898989;
+    font-family: sans-serif;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     body {
         font-size: 14px;
     }
 
     .to-do-app {
         width: 90%;
-        height: 90%;
+        height: 40%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
